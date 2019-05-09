@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+void main(){
+	int num1=10;
+	int num2=15;
+	int num3=21;
+	int result=0;
+
+	result = (num1==1 && num2 ==15 || num3>0);
+	printf("num1>0 || num2 ==15 && num3<0 => °á°ú:%d\n", result);
+}
