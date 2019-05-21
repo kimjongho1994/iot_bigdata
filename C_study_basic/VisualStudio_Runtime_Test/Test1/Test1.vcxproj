@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{66B00C01-F3AA-4FC9-B5DC-65EB95AA7818}</ProjectGuid>
-    <RootNamespace>My2601</RootNamespace>
+    <ProjectGuid>{335245BA-670E-4E48-8A19-E0DA23A4C584}</ProjectGuid>
+    <RootNamespace>Test1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\1_Beginner\000_mypage\2019-05-20\4.어렵다.c" />
+    <ClCompile Include="..\..\2_intermediate\3_Array\8_259_Arraylnit.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

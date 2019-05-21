@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\1_Beginner\000_mypage\2019-05-20\4.어렵다.c">
+    <ClCompile Include="..\..\2_intermediate\3_Array\8_259_Arraylnit.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
