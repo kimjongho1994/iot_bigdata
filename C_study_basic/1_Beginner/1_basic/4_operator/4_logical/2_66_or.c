@@ -1,15 +1,33 @@
-#include <stdio.h>
+#include<stdio.h>
 
 void main(){
+/*
+ 논리 And [참:1 / 거짓:0]
+ A조건 B조건 결과
+ 거짓  거짓  거짓
+  참   거짓   참
+ 거짓   참    참 
+  참    참    참
+*/
 	int num1=10;
 	int num2=12;
 	int result;
 
 	printf("num1: %d, num2: %d\n", num1, num2);
-
+    
 	// 거짓 || 거짓
-	result = (num1 == 1 && num2==1);
-	printf("(num1 ==1 && num2==1) => 평과결과: %d\n", result);
+	result = (num1 == 9 || num2 == 11);
+	printf("(num1 ==  9 || num2 == 11) => 평가결과: %d\n",result);
 
-	//참 숨막히구만
+	// 참 || 거짓
+	result = (num1 == 10 || num2 == 11);
+	printf("(num1 == 10 || num2 == 11) => 평가결과: %d\n",result);
+
+	// 거짓 || 참
+	result = (num1 == 9 || num2 == 12);
+	printf("(num1 ==  9 || num2 == 12) => 평가결과: %d\n",result);
+
+	// 참 || 참
+	result = (num1 == 10 || num2 == 12);
+	printf("(num1 == 10 || num2 == 12) => 평가결과: %d\n",result);
 }

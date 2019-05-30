@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\utilize_basic_IDE_fuction\calculator.c">
+    <ClCompile Include="..\utilize_basic_IDE_function\calculator.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

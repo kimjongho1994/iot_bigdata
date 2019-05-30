@@ -1,22 +1,15 @@
 #include <stdio.h>
 #pragma warning (disable:4996)
 
-void main(){
-	char arr[100];
-	int ㅎ=0;
+void main() {
+	int num1 = 0;
+	int num2;
 
-	printf("입력: ");
-	scanf("%s", arr);
-	
-	while (arr[ㅎ] != '\0') {
-		ㅎ++;
-	}
+	printf("정수 입력: ");
+	scanf("%d", &num2);
 
-	ㅎ--;
-
-	while (ㅎ != -1) {
-		printf("%c", arr[ㅎ]);
-		ㅎ--;
+	while (num1 < num2) {
+		printf("Hello world!");
+		num1++;
 	}
 }
-

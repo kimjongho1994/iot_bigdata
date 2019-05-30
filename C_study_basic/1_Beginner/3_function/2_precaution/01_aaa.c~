@@ -1,9 +1,0 @@
-#include <stdio.h>
-
-void main(){
-	int 1번, 2번, 3번;
-	printf("3 개의 정수 입력: ");
-	scanf("%d %d %d", &1번, &2번, &3번);
-	printf("%d, %d, %d 중 값이 큰 정수: %d \n",
-					1번, 2번, 3번, 1번);
-}

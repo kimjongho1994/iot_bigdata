@@ -1,8 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
 // IDE를 활용한 Hello world 출력
-// Intergrated
+// Integrated
 // Development
-// Enviroment
+// Environment
 void main() {
-	printf("Hello world!!");
+	printf("Hello_world!");
+
 }

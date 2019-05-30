@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{4A5C8572-13F7-418E-8B6C-BC31799172C4}</ProjectGuid>
+    <ProjectGuid>{4B046F61-7BB4-4532-82C4-C4DC75F9A595}</ProjectGuid>
     <RootNamespace>Debugpractice</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\utilize_basic_IDE_fuction\calculator.c" />
+    <ClCompile Include="..\utilize_basic_IDE_function\calculator.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

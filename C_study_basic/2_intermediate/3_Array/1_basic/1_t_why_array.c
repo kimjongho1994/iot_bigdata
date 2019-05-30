@@ -1,11 +1,30 @@
-#include <stdio.h>
+#include<stdio.h>
 
 void main(){
-	int arr1[5] = {1,2,3,4,5};
-	int arr2[] = {1,2,3,4,5,6,7};
-	
-	int arr3[7] = {1,2,3,4,5,6,7};
-	int arr4[5] = {1,2};
+	int number1, number2, number3, number4, number5, total, average;
+	int index;
 
-	printf("배열 선언 끝");
+	printf("첫 번째 숫자를 입력하세요: ");
+	scanf("%d", &number1);	
+	
+	printf("두 번째 숫자를 입력하세요: ");
+	scanf("%d", &number2);	
+	
+	printf("세 번째 숫자를 입력하세요: ");
+	scanf("%d", &number3);	
+	
+	printf("네 번째 숫자를 입력하세요: ");
+	scanf("%d", &number4);	
+	
+	printf("다섯 번째 숫자를 입력하세요: ");
+	scanf("%d", &number5);	
+	
+	printf("입력한 숫자(입력 순서대로 정렬): %d %d %d %d %d\n",
+				   	        number1, number2, number3, number4, number5); 
+	total=number1+number2+number3+number4+number5;
+	average=total/5;
+	printf("총합: %d, 평균: %d\n", total, average);
+
+	printf("세 번째 숫자는 %d입니다.\n", number3);
 }
+

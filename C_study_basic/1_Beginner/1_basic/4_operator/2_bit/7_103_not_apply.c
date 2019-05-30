@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 void main(){
 	int num;
@@ -7,5 +7,5 @@ void main(){
 	num = ~num;
 
 	num = num+1;
-	printf("부호를 바꾼 결과: %d \n", num);
+	printf("부호를 바꾼 결과 : %d \n", num);
 }
